@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MuscleTrainingRecords00"
              x:Class="MuscleTrainingRecords00.MainPage">
 
-    <NavigationPage Title="記録" Icon="contract (2).png">　
+    <NavigationPage Title="記録" Icon="contract (2).png" BackgroundColor="Aqua">　
         <!--下タブのタイトル-->
 
         <x:Arguments>
@@ -18,20 +18,20 @@
         </x:Arguments>
     </NavigationPage>-->
 
-    <NavigationPage Title="メニュー一覧" Icon="weightlifting.png">
+    <NavigationPage Title="メニュー一覧" Icon="weightlifting.png" BackgroundColor="Aqua">
         <x:Arguments>
             <local:MenuPage />
         </x:Arguments>
         
     </NavigationPage>
 
-    <NavigationPage Title="ボディー統計" Icon="graph (1).png">
+    <NavigationPage Title="ボディー統計" Icon="graph (1).png" BackgroundColor="Aqua">
         <x:Arguments>
             <local:GraphPage />
         </x:Arguments>
     </NavigationPage>
 
-    <NavigationPage Title="RM計算" Icon="calculator.png">
+    <NavigationPage Title="RM計算" Icon="calculator.png" BackgroundColor="Aqua">
         <x:Arguments>
             <local:RMPage />
         </x:Arguments>
