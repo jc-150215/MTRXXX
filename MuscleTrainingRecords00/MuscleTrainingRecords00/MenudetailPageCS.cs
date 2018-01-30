@@ -13,6 +13,7 @@ namespace MuscleTrainingRecords00
         {
             Title = "メニュー詳細";
             Content = new StackLayout
+            
             {
                 Children = {
                     new Label {
