@@ -5,6 +5,16 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
 
+            <StackLayout.Margin>
+
+                <!-- iOSはトップに 20 の余白が必要 -->
+                <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0, 20, 0, 0"
+                     Android="0, 0, 0, 0"
+                     WinPhone="0, 0, 0, 0" />
+            </StackLayout.Margin>
+            
+
             <Label Text=""
                    x:Name="Transition"
                    HorizontalOptions="CenterAndExpand"
