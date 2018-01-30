@@ -19,6 +19,8 @@ namespace MuscleTrainingRecords00
             {
                 BarBackgroundColor = Color.FromHex("#00bfff"),
                 BarTextColor = Color.White,
+                BackgroundColor = Color.FromHex("#00bfff"),
+              
             };
             
         }
