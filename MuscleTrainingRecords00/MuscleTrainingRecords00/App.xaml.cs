@@ -15,7 +15,7 @@ namespace MuscleTrainingRecords00
         {
             App.dbPath = dbPath;
             InitializeComponent();
-            MainPage = new MuscleTrainingRecords00.MainPage()
+            MainPage = new NavigationPage( new MuscleTrainingRecords00.MainPage())
             {
                 BarBackgroundColor = Color.FromHex("#00bfff"),
                 BarTextColor = Color.White,
