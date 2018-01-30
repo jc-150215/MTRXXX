@@ -24,8 +24,6 @@
 	<string>MuscleTrainingRecords00</string>
 	<key>CFBundleIdentifier</key>
 	<string>jp.jc21.MuscleTrainingRecords00</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon-60@2x</string>
@@ -50,5 +48,7 @@
 	<string>Resources/Media.xcassets/AppIcons.appiconset</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Resources/Media.xcassets/LaunchImages.launchimage</string>
+	<key>CFBundleVersion</key>
+	<string>10.3</string>
 </dict>
 </plist>
