@@ -68,8 +68,8 @@ namespace MuscleTrainingRecords00
                     await db.DeleteItemAsync(sameDateItem);
                     TodoItem item = new TodoItem() { Created = dCreated, Bweight = B_Weight, Bfat = B_Fat };
                     await db.SaveItemAsync(item);
-                    await DisplayAlert("", "更新されました:{" + sameDateItem.Created + "}→{" + item.Created + "}", "OK");
-
+                    //await DisplayAlert("", "更新されました:{" + sameDateItem.Created + "}→{" + item.Created + "}", "OK");
+                    await DisplayAlert("", "更新されました", "OK");
                 }
 
                 Application.Current.MainPage = new MainPage();
