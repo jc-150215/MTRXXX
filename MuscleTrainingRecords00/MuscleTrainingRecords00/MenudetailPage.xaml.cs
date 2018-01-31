@@ -25,7 +25,7 @@ namespace MuscleTrainingRecords00
 
             Description.Text = d;
 
-            //image.Source = i;
+            Image1.Source = new FileImageSource { File = i};
 
             t = m;
         }

@@ -28,6 +28,7 @@
                    VerticalOptions="EndAndExpand"
                    FontSize="Large"
                    FontAttributes="Bold"/>
+            <Image x:Name="Image1" />
 
             <Button  Clicked="addItemButton_Clicked" Text="記録へ追加" x:Name="addItemButton" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />
 
